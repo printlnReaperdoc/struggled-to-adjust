@@ -13,7 +13,7 @@ Bobby is expelled and sent to a juvenile detention center. Three years later, he
 The story explores themes of isolation, anger, mental health, empathy, and personal responsibility. It serves as a cautionary tale about the dangers of unchecked emotions and social disconnection, while highlighting the importance of communication, understanding, and emotional resilience.
 
 ## How to View the Website
-- **Live site:** [Struggled to Adjust – GitHub Pages](https://anongnangyayarisaken.github.io/struggled-to-adjust)
+- **Live site:** [Struggled to Adjust – GitHub Pages](https://printlnreaperdoc.github.io/struggled-to-adjust/)
 - **Local preview:** Open `index.html` in your browser from this repository folder.
 
 ## Author
