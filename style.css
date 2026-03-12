@@ -1,0 +1,158 @@
+/* Custom Fonts */
+@font-face {
+  font-family: 'LogoFont';
+  src: url('resources/logo.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TextFont';
+  src: url('resources/text.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global Styles */
+:root {
+  --primary-red: #ff0000;
+  --glow-red: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'TextFont', sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'LogoFont', sans-serif;
+  color: #ff0000;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+/* Header Navigation */
+header {
+  background-color: #000000;
+  border-bottom: 2px solid #ff0000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+header h1 {
+  font-family: 'LogoFont', sans-serif;
+  color: #ff0000;
+  text-shadow: 0 0 15px rgba(255, 0, 0, 1), 0 0 30px rgba(255, 0, 0, 0.6);
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+header .subtitle {
+  color: #ffffff;
+}
+
+nav a {
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff0000;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+nav .cta-button {
+  background-color: #000000;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  transition: all 0.3s ease;
+}
+
+nav .cta-button:hover {
+  background-color: #ff0000;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
+
+/* Main Content */
+main {
+  background-color: #000000;
+}
+
+main .content-box {
+  background-color: #111111;
+  border: 1px solid #ff0000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+  color: #ff0000;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+/* Buttons */
+button, .button {
+  background-color: #000000;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  font-family: 'LogoFont', sans-serif;
+  transition: all 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: #ff0000;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
+
+/* Content Warning */
+.content-warning {
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 2px solid #ff0000;
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  border-top: 2px solid #ff0000;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ff0000;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+/* Utility Classes */
+.text-white {
+  color: #ffffff;
+}
+
+.text-red {
+  color: #ff0000;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.border-red {
+  border-color: #ff0000;
+}
+
+/* Chapter Links Glow Effect */
+.block.bg-gray-900.border-2.border-red-600:hover {
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.8), 0 0 40px rgba(220, 38, 38, 0.5), 0 0 60px rgba(220, 38, 38, 0.3);
+}
